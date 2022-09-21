@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <link rel="stylesheet" href="/src/css/reset.css">
+        <link rel="stylesheet" href="/src/css/registro.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="/src/js/sla.js"></script>
+        <title>Registro</title>
+    </head>
+
+    <body>
+        <nav class="navbar">
+            <div class="navbar-container">
+                <img src="/src/img/ZonaZooZoologo_2.png" alt="Logo ZonaZooZoo" href="/index.html" class="logo" onclick="voltar()">
+                <div class="menu-items">
+                    <a href="/src/html/sobre-nos.html" class="menu-links">Sobre Nós</a>
+                    <a href="/src/html/animais.html" class="menu-links">Animais</a>
+                    <a href="/src/html/ingressos.html" class="menu-links">Ingressos</a>
+                    <div class="container-button">
+                        <a href="/src/html/registro.html" class="button registrar">Registrar</a>
+                        <a href="/src/html/entrar.html" class="button entrar">Entrar</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <main class="main-form">
+            <div class="main-container">
+            <h1>Preencha com suas informações</h1>
+                <form>
+                    <fieldset>
+                        <label for="nomeSobrenome">Nome e Sobrenome<input type="txt" id="nomeSobrenome" required></label>
+                        
+                        <label for="email">Email<input type="email" id="email" required placeholder="email@domínio.com"></label>
+
+                        <label for="telefone">Celular<input type="tel" id="telefone" required placeholder="(xx) x-xxxx-xxxx"></label>
+                    </fieldset>
+                    <input type="submit" value="Enviar Informações" id="submit">
+                </form>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <img src="/src/img/ZonaZooZoologo_2.png" alt="Logo ZonaZooZoo" class="footer-img">
+            <p class="copyright">&copy; Copyright ZonaZooZoo. 2022</p>
+        </footer>
+    </body>
+
+</html>
