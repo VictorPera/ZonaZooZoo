@@ -133,6 +133,12 @@ a {
     flex-wrap: wrap;
 }
 
+.swiper {
+    border-radius: 40px;
+    width: 600px;
+    height: 400px;
+}
+
 .main-container {
     display: flex;
     justify-content: center;
@@ -141,6 +147,7 @@ a {
 }
 
 .text-home {
+    width: 40%;
     /* background: rgb(18,16,50);
     background: linear-gradient(270deg, rgba(24,24,121,1) 0%, rgb(11, 109, 255) 50%, rgba(24,24,121,1));    display: flex; */
     justify-content: center;
@@ -175,6 +182,7 @@ h1.title {
 }
 
 .text-about {
+    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -206,6 +214,10 @@ h1.title {
     font-size: 1.5em;
     font-weight: bold;
     margin: 1em;
+}
+
+.map-frame {
+    border-radius: 30px;
 }
 
 /* fim main */
